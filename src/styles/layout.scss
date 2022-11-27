@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.frontlayout {
+  margin-inline: 2rem;
+  margin-block: 1rem;
+  display: grid;
+  grid-template-columns: 15% auto;
+  gap: 2.9rem;
+}

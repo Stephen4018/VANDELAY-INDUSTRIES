@@ -1,10 +1,11 @@
 import "./App.css";
-// import "./styles/home.scss";
+import MainSection from "./sections/mainSection";
+import "./styles/layout.scss";
 
 function App() {
   return (
     <div className="App">
-      <div className=" ">this is the body</div>
+      <MainSection />
     </div>
   );
 }
