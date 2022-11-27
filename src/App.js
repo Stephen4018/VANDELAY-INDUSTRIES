@@ -1,6 +1,5 @@
-import "./App.css";
 import MainSection from "./sections/mainSection";
-import "./styles/layout.scss";
+import "./styles/custom.scss";
 
 function App() {
   return (
