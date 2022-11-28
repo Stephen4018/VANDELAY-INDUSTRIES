@@ -5,12 +5,13 @@
   box-sizing: border-box;
 }
 body {
-  background: #e5e5e5;
+  background: #f8f9fa;
+  font-family: "Poppins", sans-serif;
 }
 .frontlayout {
   margin-inline: 2rem;
   margin-block: 1rem;
   display: grid;
-  grid-template-columns: 15% auto;
+  grid-template-columns: 20% auto;
   gap: 2.9rem;
 }
