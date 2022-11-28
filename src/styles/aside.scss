@@ -1,3 +1,31 @@
-.aside-container {
-  background: #e5e5e5;
+.aside-section {
+  border: 1px solid red;
+  .aside-section-inner {
+    .logo {
+      display: flex;
+      justify-content: center;
+    }
+    .line {
+      width: 233.25px;
+      height: 2px;
+      //   background: linear-gradient(
+      //     to left,
+      //     #e0e1e2 0% #e0e1e2 100% #e0e1e2 15.63%
+      //   );
+      background: red;
+      margin: auto;
+      margin-top: 2rem;
+    }
+    .aside-inner-top {
+      .dashboard {
+        background: #ffffff;
+        border-radius: 15px;
+        p {
+          font-family: "Poppins", sans-serif;
+          font-weight: 700;
+          font-size: 0.66rem;
+        }
+      }
+    }
+  }
 }
