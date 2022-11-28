@@ -16,14 +16,26 @@
       margin: auto;
       margin-top: 2rem;
     }
+    //aside top section styling
     .aside-inner-top {
       .dashboard {
         background: #ffffff;
         border-radius: 15px;
-        p {
+        display: flex;
+        gap: 0.75rem;
+        align-items: center;
+        padding: 0.75rem 1rem;
+        margin-top: 1.40625rem;
+        .dashboard-text-icon {
+          background: #4fd1c5;
+          color: white;
+          border-radius: 12px;
+          padding: 0.65rem;
+        }
+        .dashboard-text {
           font-family: "Poppins", sans-serif;
           font-weight: 700;
-          font-size: 0.66rem;
+          font-size: 0.75rem;
         }
       }
     }

@@ -14,7 +14,14 @@ const AsideComp = () => {
             <div className="dashboard-text-icon">
               <FaHome />
             </div>
-            <p>Dashboard</p>
+            <p className="dashboard-text hide">Dashboard</p>
+          </div>
+          {/* /* end of dashboard text */}
+          <div className="billing">
+            <div className="billing-icon">
+              <img src="chart.png" alt="" />
+            </div>
+            <p className="billing-text hide">Tables</p>
           </div>
         </section>
       </div>
