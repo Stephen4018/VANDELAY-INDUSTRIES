@@ -4,6 +4,7 @@ import { BsFillCreditCardFill } from "react-icons/bs";
 import { TiSpanner } from "react-icons/ti";
 import { BsFillPersonFill } from "react-icons/bs";
 import { IoIosRocket } from "react-icons/io";
+// import { Link } from "react-router-dom";
 
 const AsideComp = () => {
   return (
@@ -12,7 +13,6 @@ const AsideComp = () => {
         <div className="logo">
           <img src="logos.png" alt="" />
         </div>
-        <div className="line"></div>
         <section className="aside-inner-top">
           <div className="dashboard">
             <div className="dashboard-text-icon">
@@ -64,7 +64,18 @@ const AsideComp = () => {
           </div>
         </section>
         <div className="aside-footer">
-          hello hello hello hello hello hello hello
+          <div className="aside-footer-inner">
+            <div className="question">
+              <span>?</span>
+            </div>
+            <div className="question-text">
+              <p className="bold">Need Help?</p>
+              <p className="light">Please check our docs</p>
+            </div>
+            <div className="documentation">
+              <p>Documentation</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

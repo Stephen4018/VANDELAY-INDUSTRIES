@@ -9,7 +9,7 @@
       background: #ffffff;
       color: #4fd1c5;
       border-radius: 12px;
-      padding: 0.65rem;
+      padding: 0.45rem 0.65rem;
     }
     .text {
       color: #a0aec0;
@@ -21,17 +21,6 @@
     .logo {
       display: flex;
       justify-content: center;
-    }
-    .line {
-      width: 100%;
-      height: 2px;
-      //   background: linear-gradient(
-      //     to left,
-      //     #e0e1e2 0% #e0e1e2 100% #e0e1e2 15.63%
-      //   );
-      background: red;
-      margin: auto;
-      margin-top: 2rem;
     }
     //aside top section styling
     .aside-inner-top {
@@ -67,7 +56,16 @@
     background-image: url(../component/image.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 300px;
-    // background: red;
+    height: 9.416rem;
+    background-size: cover;
+    &-inner {
+      .question {
+        background: white;
+        padding: 0.472rem;
+        span {
+          background: #4fd1c5;
+        }
+      }
+    }
   }
 }
