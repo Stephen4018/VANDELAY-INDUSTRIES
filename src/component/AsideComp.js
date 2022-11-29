@@ -66,7 +66,9 @@ const AsideComp = () => {
         <div className="aside-footer">
           <div className="aside-footer-inner">
             <div className="question">
-              <span>?</span>
+              <div className="question-inner">
+                <span>?</span>
+              </div>
             </div>
             <div className="question-text">
               <p className="bold">Need Help?</p>
